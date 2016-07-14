@@ -1,0 +1,80 @@
+/* #9DC8C8 - grayish blue
+#58C9B9 - turquoise
+#519D9E - sea green
+#D1B6E1 - light purple */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #519d9e;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 50%;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 100%;
+    background-color: #9dc8c8;
+    margin: 0 auto;
+}
+
+form,
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 75%;
+    margin: 0 auto;
+}
+
+form {
+    padding: 2em 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5em 0 0.5em 0.5em;
+    opacity: 0.9;
+    border: none;
+}
+
+label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #519d9e;
+}
+
+input,
+textarea {
+    /*width: 75%;*/
+}
+
+input[type="text"],
+input[type="email"],
+label,
+textarea {
+    display: block;
+}
+
+#submit {
+    background-color: #d1b6e1;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    padding: 0.5em;
+    color: #1e1e1e;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.8;
+}
