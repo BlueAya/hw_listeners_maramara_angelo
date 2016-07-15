@@ -1,0 +1,39 @@
+html {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    color: blue;
+}
+
+#maincontent {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    opacity: 0.9;
+    color: #2e7988;
+    background-color: #ffe994;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#images {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.beachimg {
+    display: inline-block;
+    max-width: 175px;
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: 50%;
+}
