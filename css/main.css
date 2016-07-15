@@ -68,11 +68,6 @@ label {
     color: #519d9e;
 }
 
-input,
-textarea {
-    /*width: 75%;*/
-}
-
 input[type="text"],
 input[type="email"],
 label,
