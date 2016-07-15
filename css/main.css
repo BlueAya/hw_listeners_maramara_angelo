@@ -1,0 +1,26 @@
+body {
+    background-color: #30a9de;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,
+p {
+    text-align: center;
+    color: #090707;
+}
+
+h1 {
+    display: inline-block;
+    background-color: #090707;
+    color: #e53a40;
+    padding: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+p {
+    background-color: #efdc05;
+    width: 100%;
+}
